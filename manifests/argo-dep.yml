@@ -15,6 +15,6 @@ spec:
         app: gitops-demo
     spec:
       containers:
-      - image: bridgez/gitops-demo:0327
+      - image: httpd #bridgez/gitops-demo:0327
         imagePullPolicy: IfNotPresent
         name: gitops-demo
